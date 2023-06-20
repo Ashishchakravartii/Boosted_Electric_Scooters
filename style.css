@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100%;
+}
+
+.page1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    padding: 0 2vmax;
+}
+
+.navOptions {
+    display: flex;
+    align-items: center;
+    gap: 4vmax;
+    justify-content: center;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+}
+
+.p1-left {
+    background-color: red;
+    background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_5000x.jpg?v=1646159164%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4500x.jpg?v=1646159164%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4000x.jpg?v=1646159164%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3500x.jpg?v=1646159164%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3000x.jpg?v=1646159164%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2500x.jpg?v=1646159164%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2000x.jpg?v=1646159164%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1800x.jpg?v=1646159164%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1600x.jpg?v=1646159164%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1400x.jpg?v=1646159164%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1200x.jpg?v=1646159164%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1000x.jpg?v=1646159164%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_800x.jpg?v=1646159164%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_600x.jpg?v=1646159164%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_400x.jpg?v=1646159164%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_200x.jpg?v=1646159164%20200w,);
+    background-size: cover;
+    background-position: center;
+    margin-top: 4.6vmax;
+}
+
+.p1-right {
+    background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_5000x.jpg?v=1680839620%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_4500x.jpg?v=1680839620%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_4000x.jpg?v=1680839620%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_3500x.jpg?v=1680839620%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_3000x.jpg?v=1680839620%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_2500x.jpg?v=1680839620%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_2000x.jpg?v=1680839620%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1800x.jpg?v=1680839620%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1600x.jpg?v=1680839620%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1400x.jpg?v=1680839620%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1200x.jpg?v=1680839620%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1000x.jpg?v=1680839620%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_800x.jpg?v=1680839620%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_600x.jpg?v=1680839620%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_400x.jpg?v=1680839620%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_200x.jpg?v=1680839620%20200w,);
+    background-size: cover;
+    background-position: center;
+    margin-top: 4.6vmax;
+    background-color: darkblue;
+
+}
+
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+
+}
+
+.p2-left {
+    background-color: blue;
+}
+
+.p2-right {
+    background-color: salmon;
+}
