@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    font-family: "Roboto";
 }
 
 .main {
@@ -31,9 +32,28 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: fixed;
+    z-index: 10000;
     top: 0;
     padding: 0 2vmax;
+    box-shadow: 0 0.5px 9px rgb(255, 254, 254);
+    font-family: "Roboto";
+    letter-spacing: 0.8px;
+}
+.navOptions a:hover{
+    color: #ec7124;
+}
+.navOptions h5:hover{
+    color: #ec7124;
+}
+
+nav a {
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+nav h5 {
+    text-decoration: none;
+    transition: all ease 0.3s;
 }
 
 .navOptions {
@@ -41,6 +61,16 @@ nav {
     align-items: center;
     gap: 4vmax;
     justify-content: center;
+}
+
+.navOptions a {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 0.95vmax;
+    letter-spacing: 0.8px;
+
 }
 
 .left {
@@ -52,23 +82,69 @@ nav {
     width: 50%;
     height: 100%;
 }
-
+/* 
 .p1-left {
-    background-color: red;
-    background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_5000x.jpg?v=1646159164%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4500x.jpg?v=1646159164%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4000x.jpg?v=1646159164%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3500x.jpg?v=1646159164%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3000x.jpg?v=1646159164%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2500x.jpg?v=1646159164%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2000x.jpg?v=1646159164%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1800x.jpg?v=1646159164%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1600x.jpg?v=1646159164%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1400x.jpg?v=1646159164%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1200x.jpg?v=1646159164%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1000x.jpg?v=1646159164%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_800x.jpg?v=1646159164%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_600x.jpg?v=1646159164%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_400x.jpg?v=1646159164%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_200x.jpg?v=1646159164%20200w,);
-    background-size: cover;
+    background-color: red; */
+    /* background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_5000x.jpg?v=1646159164%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4500x.jpg?v=1646159164%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4000x.jpg?v=1646159164%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3500x.jpg?v=1646159164%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3000x.jpg?v=1646159164%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2500x.jpg?v=1646159164%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2000x.jpg?v=1646159164%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1800x.jpg?v=1646159164%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1600x.jpg?v=1646159164%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1400x.jpg?v=1646159164%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1200x.jpg?v=1646159164%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1000x.jpg?v=1646159164%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_800x.jpg?v=1646159164%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_600x.jpg?v=1646159164%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_400x.jpg?v=1646159164%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_200x.jpg?v=1646159164%20200w,); */
+    /* background-size: cover;
     background-position: center;
     margin-top: 4.6vmax;
+    width: 100%;
+} */
+
+/* ================================================ */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    margin-top: 4.6vmax;
+    
 }
 
-.p1-right {
+.image-container::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background: rgba(190, 186, 186, 0.5);
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .image-container:hover::after {
+    opacity: 1;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+  
+/* ================================================ */
+
+/* .hoverImg{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+} */
+/* .p1-right {
     background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_5000x.jpg?v=1680839620%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_4500x.jpg?v=1680839620%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_4000x.jpg?v=1680839620%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_3500x.jpg?v=1680839620%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_3000x.jpg?v=1680839620%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_2500x.jpg?v=1680839620%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_2000x.jpg?v=1680839620%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1800x.jpg?v=1680839620%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1600x.jpg?v=1680839620%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1400x.jpg?v=1680839620%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1200x.jpg?v=1680839620%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_1000x.jpg?v=1680839620%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_800x.jpg?v=1680839620%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_600x.jpg?v=1680839620%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_400x.jpg?v=1680839620%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/Boosted-USA-Super-73-Home-Box-feature-600x544_200x.jpg?v=1680839620%20200w,);
     background-size: cover;
     background-position: center;
     margin-top: 4.6vmax;
     background-color: darkblue;
 
-}
+} */
 
 .page2 {
     width: 100vw;
@@ -77,11 +153,48 @@ nav {
     display: flex;
 
 }
+.p2Img{
+    margin-top: -2vmax;
+}
 
-.p2-left {
+/* .p2-left {
     background-color: blue;
+    background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_5000x.jpg?v=1646159245%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_4500x.jpg?v=1646159245%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_4000x.jpg?v=1646159245%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_3500x.jpg?v=1646159245%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_3000x.jpg?v=1646159245%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_2500x.jpg?v=1646159245%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_2000x.jpg?v=1646159245%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_1800x.jpg?v=1646159245%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_1600x.jpg?v=1646159245%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_1400x.jpg?v=1646159245%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_1200x.jpg?v=1646159245%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_1000x.jpg?v=1646159245%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_800x.jpg?v=1646159245%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_600x.jpg?v=1646159245%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_400x.jpg?v=1646159245%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-electric-skateboard-now-in-stock_200x.jpg?v=1646159245%20200w,);
+    background-size: cover;
+    background-position: center;
 }
 
 .p2-right {
     background-color: salmon;
+    background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_5000x.jpg?v=1655828690%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_4500x.jpg?v=1655828690%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_4000x.jpg?v=1655828690%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_3500x.jpg?v=1655828690%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_3000x.jpg?v=1655828690%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_2500x.jpg?v=1655828690%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_2000x.jpg?v=1655828690%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_1800x.jpg?v=1655828690%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_1600x.jpg?v=1655828690%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_1400x.jpg?v=1655828690%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_1200x.jpg?v=1655828690%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_1000x.jpg?v=1655828690%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_800x.jpg?v=1655828690%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_600x.jpg?v=1655828690%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_400x.jpg?v=1655828690%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/minimotors-electric-scooters-2_200x.jpg?v=1655828690%20200w,);
+    background-size: cover;
+    background-position: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================================================
+                                Shop Page
+========================================================================================================== */
+
+.products {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 4.6vmax;
+}
+
+.productHead {
+    margin-top: 5.5vmax;
+    margin-left: 10vmax;
 }
