@@ -41,10 +41,12 @@ nav {
     font-family: "Roboto";
     letter-spacing: 0.8px;
 }
-.navOptions a:hover{
+
+.navOptions a:hover {
     color: #ec7124;
 }
-.navOptions h5:hover{
+
+.navOptions h5:hover {
     color: #ec7124;
 }
 
@@ -52,6 +54,7 @@ nav a {
     text-decoration: none;
     transition: all ease 0.3s;
 }
+
 nav h5 {
     text-decoration: none;
     transition: all ease 0.3s;
@@ -83,11 +86,12 @@ nav h5 {
     width: 50%;
     height: 100%;
 }
+
 /* 
 .p1-left {
     background-color: red; */
-    /* background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_5000x.jpg?v=1646159164%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4500x.jpg?v=1646159164%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4000x.jpg?v=1646159164%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3500x.jpg?v=1646159164%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3000x.jpg?v=1646159164%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2500x.jpg?v=1646159164%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2000x.jpg?v=1646159164%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1800x.jpg?v=1646159164%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1600x.jpg?v=1646159164%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1400x.jpg?v=1646159164%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1200x.jpg?v=1646159164%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1000x.jpg?v=1646159164%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_800x.jpg?v=1646159164%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_600x.jpg?v=1646159164%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_400x.jpg?v=1646159164%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_200x.jpg?v=1646159164%20200w,); */
-    /* background-size: cover;
+/* background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_5000x.jpg?v=1646159164%205000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4500x.jpg?v=1646159164%204500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_4000x.jpg?v=1646159164%204000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3500x.jpg?v=1646159164%203500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_3000x.jpg?v=1646159164%203000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2500x.jpg?v=1646159164%202500w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_2000x.jpg?v=1646159164%202000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1800x.jpg?v=1646159164%201800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1600x.jpg?v=1646159164%201600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1400x.jpg?v=1646159164%201400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1200x.jpg?v=1646159164%201200w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_1000x.jpg?v=1646159164%201000w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_800x.jpg?v=1646159164%20800w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_600x.jpg?v=1646159164%20600w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_400x.jpg?v=1646159164%20400w,%20%20%20%20%20//cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-electric-scooter-now-in-stock_c5926a3e-f2ff-46a9-9c91-97765798bac4_200x.jpg?v=1646159164%20200w,); */
+/* background-size: cover;
     background-position: center;
     margin-top: 4.6vmax;
     width: 100%;
@@ -98,7 +102,7 @@ nav h5 {
     position: relative;
     overflow: hidden;
     width: 50%;
-    margin-top: 4.6vmax;    
+    margin-top: 4.6vmax;
 }
 
 .image-container::after {
@@ -112,26 +116,26 @@ nav h5 {
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
-  }
-  
-  .image-container:hover::after {
+}
+
+.image-container:hover::after {
     opacity: 1;
 
-  }
-  
-  
-  .image-container img {
+}
+
+
+.image-container img {
     display: block;
     width: 100%;
     height: 100%;
     transition: transform 0.3s ease;
     object-fit: cover;
-  }
-  
-  .image-container:hover img {
+}
+
+.image-container:hover img {
     transform: scale(1.1);
-  }
-  
+}
+
 /* ================================================ */
 
 /* .hoverImg{
@@ -155,7 +159,8 @@ nav h5 {
     display: flex;
 
 }
-.p2Img{
+
+.p2Img {
     margin-top: -2vmax;
 }
 
@@ -174,39 +179,45 @@ nav h5 {
 } */
 
 
-.box1Content{
+.box1Content {
     position: absolute;
     z-index: 1000;
     width: 40%;
     border-radius: 25%;
     top: 50%;
     left: 25%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: white;
     opacity: 0.5;
 
 }
-.box2Content{
+
+.box2Content {
     left: 75%;
 
 }
-.box3Content{
+
+.box3Content {
     top: 170%;
 }
-.box4Content{
+
+.box4Content {
     top: 170%;
     left: 75%;
 }
+
 /* ---------------------------------------Page 3------------------------------------------ */
 
-.page3{
+.page3 {
     width: 100vw;
     height: 140vh;
 }
-.filler{
+
+.filler {
     height: 5vmax;
 }
-.blackBar{
+
+.blackBar {
     width: 100%;
     height: 10%;
     background-color: black;
@@ -215,7 +226,8 @@ nav h5 {
 
     justify-content: space-evenly;
 }
-.p3-top{
+
+.p3-top {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -225,35 +237,41 @@ nav h5 {
     text-align: center;
     padding-top: 4vmax;
 }
-.p3-top p{
+
+.p3-top p {
     font-size: 1vmax;
 }
-.p3-top p>a{
-    color: rgb(255,87,64);
+
+.p3-top p>a {
+    color: rgb(255, 87, 64);
     text-decoration: none;
 }
-.p3-top h4>span{
+
+.p3-top h4>span {
     font-weight: 400;
 }
 
-.p3-bottom{
+.p3-bottom {
     width: 100%;
     height: calc(140vh - 10% - 50vh);
     display: flex;
 }
-.description1{
+
+.description1 {
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.description1> img{
+
+.description1>img {
     width: 80%;
     height: 80%;
     object-fit: cover;
 }
-.description2{
+
+.description2 {
     width: 50%;
     height: 100%;
     display: flex;
@@ -263,28 +281,37 @@ nav h5 {
     justify-content: space-around;
     padding-left: 5vmax;
 }
-.description2 p{
+
+.description2 p {
     font-size: 1vmax;
 }
-.description2 button{
+
+.description2 button {
     background-color: #FF4A32;
     border-radius: 50px;
     padding: 0.5vmax 1vmax;
     border: none;
     color: white;
+    transition: all linear 0.2s;
 }
-.description2 button a{
+
+.description2 button a {
     text-decoration: none;
     color: white;
 }
 
-.page4{
+.description2 button:hover {
+    background-color: gray;
+}
+
+.page4 {
     width: 100%;
     height: 100vh;
     display: flex;
-    
+
 }
-.p4-description1{
+
+.p4-description1 {
     width: 50vw;
     height: 100%;
     display: flex;
@@ -295,31 +322,42 @@ nav h5 {
     justify-content: space-evenly;
     padding-left: 8vmax;
 }
-.p4-description1 p{
+
+.p4-description1 p {
     font-size: 1vmax;
     line-height: 20px;
 }
-.p4-description1 button{
+
+.p4-description1 button {
     background-color: #FF4A32;
     border-radius: 50px;
     padding: 0.5vmax 1vmax;
     border: none;
     color: white;
+    transition: all linear 0.2s;
 
 }
-.p4-description1 button>a{
+
+.p4-description1 button:hover {
+    background-color: gray;
+}
+
+.p4-description1 button>a {
     text-decoration: none;
     color: white;
 
 }
-.p4-description2{
+
+.p4-description2 {
     width: 50vw;
     height: 100%;
 }
-.filler1{
+
+.filler1 {
     height: 13vmax;
 }
-.p4-description2 img{
+
+.p4-description2 img {
     width: 80%;
     object-fit: cover;
     height: 70%;
@@ -328,9 +366,187 @@ nav h5 {
 
 }
 
+/* -----------------------------------Page 5-------------------------------------- */
+
+.page5 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/boosted-rev-display_2000x.jpg?v=1646160921);
+    background-size: cover;
+    background-position: center;
+}
+
+.page5 div {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 3vmax;
+
+}
+
+.page5 div>h1 {
+    font-size: 3.1vmax;
+}
+
+.page5 div>h4 {
+    letter-spacing: 0.1vmin;
+    font-size: 1vmax;
+
+}
+
+.page5 div>button {
+    background-color: #FF4A32;
+    border-radius: 50px;
+    padding: 0.5vmax 1vmax;
+    border: none;
+    color: white;
+    padding: 0.5vmax 4vmax;
+    margin-top: 1vmax;
+    transition: all linear 0.2s;
+
+}
+
+.page5 div>button:hover {
+    background-color: gray;
+}
+
+.page5 div>button>a {
+    text-decoration: none;
+    color: white;
+}
 
 
+/* -----------------------------------------Page 6---------------------------------------- */
 
+.page6 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page6 iframe {
+    width: 75%;
+    height: 94%;
+    margin-top: 1.5vmax;
+    margin-left: 12.5vmax;
+}
+
+/* ------------------------------------------Page7------------------------------------------ */
+
+
+.page7 {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(https://cdn.shopify.com/s/files/1/0268/1454/6031/files/evolve-skateboards-1_2000x.jpg?v=1646161047);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page7 div {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 3vmax;
+    gap: 1vmax;
+    padding-bottom: 4vmax;
+
+
+}
+
+.page7 div>h1 {
+    font-size: 3.1vmax;
+}
+
+.page7 div>h4 {
+    letter-spacing: 0.1vmin;
+    font-size: 1vmax;
+
+}
+
+.page7 div>button {
+    background-color: #FF4A32;
+    border-radius: 50px;
+    padding: 0.5vmax 1vmax;
+    border: none;
+    color: white;
+    padding: 0.5vmax 4vmax;
+    margin-top: 1vmax;
+    transition: all linear 0.2s;
+
+}
+
+.page7 div>button:hover {
+    background-color: gray;
+}
+
+.page7 div>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------------------------------------------------Page 8-------------------------------- */
+
+.page8 {
+    width: 100vw;
+    height: 120vh;
+    padding-top: 1vmax;
+
+}
+
+.page8 h1 {
+    text-align: center;
+}
+
+.p8-products1-list {
+    width: 100%;
+    height: 45%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+
+}
+.p8-products1-list::-webkit-scrollbar{
+    display: none;
+}
+
+
+.p8-products1-list div {
+    width: 15%;
+    height: 80%;   
+    text-align: center;
+    display: inline-block;
+    margin-left: 2vmax;
+    margin-top: 2.5vmax;
+
+}
+.p8-products1-list div> h5:nth-child(2){
+    color: #ec7124;
+}
+.p8-products1-list div>img{
+     width: 15vmax;
+    object-fit: cover;
+    object-position: center;
+}
+
+.p8-products2-list {
+    width: 100%;
+    height: 45%;
+    background-color: red;
+}
 
 
 
