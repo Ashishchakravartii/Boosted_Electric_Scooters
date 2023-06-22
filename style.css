@@ -201,7 +201,10 @@ nav h5 {
 
 .page3{
     width: 100vw;
-    height: 100vh;
+    height: 140vh;
+}
+.filler{
+    height: 5vmax;
 }
 .blackBar{
     width: 100%;
@@ -222,12 +225,107 @@ nav h5 {
     text-align: center;
     padding-top: 4vmax;
 }
+.p3-top p{
+    font-size: 1vmax;
+}
 .p3-top p>a{
     color: rgb(255,87,64);
     text-decoration: none;
 }
 .p3-top h4>span{
     font-weight: 400;
+}
+
+.p3-bottom{
+    width: 100%;
+    height: calc(140vh - 10% - 50vh);
+    display: flex;
+}
+.description1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description1> img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+.description2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-around;
+    padding-left: 5vmax;
+}
+.description2 p{
+    font-size: 1vmax;
+}
+.description2 button{
+    background-color: #FF4A32;
+    border-radius: 50px;
+    padding: 0.5vmax 1vmax;
+    border: none;
+    color: white;
+}
+.description2 button a{
+    text-decoration: none;
+    color: white;
+}
+
+.page4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.p4-description1{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    padding-left: 8vmax;
+}
+.p4-description1 p{
+    font-size: 1vmax;
+    line-height: 20px;
+}
+.p4-description1 button{
+    background-color: #FF4A32;
+    border-radius: 50px;
+    padding: 0.5vmax 1vmax;
+    border: none;
+    color: white;
+
+}
+.p4-description1 button>a{
+    text-decoration: none;
+    color: white;
+
+}
+.p4-description2{
+    width: 50vw;
+    height: 100%;
+}
+.filler1{
+    height: 13vmax;
+}
+.p4-description2 img{
+    width: 80%;
+    object-fit: cover;
+    height: 70%;
+    margin-top: 6vmax;
+    margin-left: 4vmax;
+
 }
 
 
