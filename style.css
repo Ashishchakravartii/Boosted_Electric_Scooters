@@ -755,9 +755,9 @@ footer div {
 
 .products {
     width: 100vw;
-     height: 260vh;
-    /* margin-top: 4.6vmax; */
-    background-color: red;
+     height: 100vh;
+    margin-top: 4.6vmax;
+    /* background-color: red; */
 }
 
 .productHead {
@@ -767,27 +767,25 @@ footer div {
 
 .productBox {
     width: 70%;
-    height: 80%;
-    background-color: blue;
+    height: 70%;
     margin-left: 13.1vmax;
-    padding-top: 5vmax;
+    margin-top: 1vmax;
 }
 
 .productBox div {
     width: 33%;
-    /* height: 40%; */
-    background-color: yellow;
+    height: 50%;
     display: inline-block;
-    border: 2px solid red;
     text-align: center;
-    margin-top: 2vmax;
+    /* margin-top: 2vmax; */
+    /* padding-bottom: 5vmax; */
 }
 
 .productBox div>h4 {
     font-weight: 500;
     font-size: 1vmax;
     color: #FF4A32;
-    margin-top: 1vmax;
+    /* margin-top: 1vmax; */
 }
 
 .productBox div>p {
@@ -796,5 +794,6 @@ footer div {
 }
 
 .productBox div>img {
-    width: 100%;
+    width: 80%;
+    height: 80%;
 }

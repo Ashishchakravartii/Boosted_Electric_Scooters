@@ -1,4 +1,4 @@
-let p8Products1List = document.querySelector(".p8-products1-list");
+// let p8Products1List = document.querySelector(".p8-products1-list");
 let productList2 = document.querySelector(".productList2");
 let productList3 = document.querySelector(".productList3");
 
@@ -33,7 +33,7 @@ let arr = [
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/kyson-dana-accessories-web-39_200x.jpg?v=1610485546",
         name: "Boosted Charger",
-        price:"Sold Out"
+        price: "Sold Out"
     },
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/kyson-dana-accessories-web-28_200x.jpg?v=1610485653",
@@ -58,16 +58,15 @@ let arr = [
 
 ]
 
-let clutter="";
-arr.forEach((clut)=>{
-     clutter+=` <div >
-     <img src="${clut.img}" alt="">
-     <h5>${clut.name}</h5>
-     <h5>${clut.price}</h5>
+let clutter = "";
+arr.forEach((clut) => {
+    clutter += ` <div >
+    <img src="${clut.img}" alt="">
+    <h5>${clut.name}</h5>
+    <h5>${clut.price}</h5>
  </div>`
 })
-
-p8Products1List.innerHTML=clutter;
+document.querySelector(".p8-products1-list").innerHTML = clutter;
 
 // -----------------------------Product Swiper 2---------------------------------------- 
 
@@ -82,72 +81,72 @@ let arr1 = [
         name: "Evolve Y Wrench",
         price: "$9.00"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/GTR_Bamboo_Battery_Large_2048x2048_adc2ea60-3b44-4ee1-a61e-740abebc3ed5_200x.png?v=1646150379",
         name: "Evolve Battery - Bamboo GTR 14AH",
         price: "Sold Out"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/SmallBat_2000x.webp?v=1648152431",
         name: "Evolve Battery - Bamboo GTR 4AH",
         price: "$50.00"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/Hadean107_200x.webp?v=1652898792",
         name: "Evolve Hadean Series Kits",
         price: "$280.00"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/Phaze_Remote_1_2048x2048_350x350_fdbde080-25e4-45bd-9ed7-6b8d5d65b1e1_2000x.png?v=1663627512",
         name: "Evolve Phaze Remote",
         price: "$150.00"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/Calikites-LastMilesSF-Evolve-GTR-Street-Wheels-97-Purple_927f3635-f9a1-420d-89ad-6c8b91346980_2000x.jpg?v=1646149772",
         name: "Evolve GTR Street Wheels",
         price: "Sold Out"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/Calikites-LastMileSF-Evolve-Electric-Skateboard-38T-Upgrade-Kit_189a039a-39bb-4153-a8cb-6d81c095732f_2000x.png?v=1651699431",
         name: "Evolve Aluminum Kit 38T",
         price: "$94.00"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/Calikites-LastMileSF-Evolve-Electric-Skateboard-Carbon-GT-Deck_2590593b-e543-4f36-8aa1-fe95e78bb94e_2000x.jpg?v=1646149298",
         name: "Evolve Decks",
         price: "$550.00"
     },
-    
+
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/BashGuards_2000x.webp?v=1677780822",
         name: "Evolve Bash Guard Kit",
         price: "$75.00"
     },
-    
+
 
 ]
 
-let clutter2="";
-arr1.forEach((elem)=>{
-    clutter2+=` <div >
+let clutter2 = "";
+arr1.forEach((elem) => {
+    clutter2 += ` <div >
     <img src="${elem.img}" alt="">
     <h5>${elem.name}</h5>
     <h5>${elem.price}</h5>
 </div>`
 })
 
-productList2.innerHTML= clutter2;
+productList2.innerHTML = clutter2;
 
 // -----------------------------Product Swiper 3---------------------------------------- 
 
-arr3=[
+arr3 = [
     {
         img: "https://cdn.shopify.com/s/files/1/0268/1454/6031/products/dualtron_thunder_brake_pads_2000x.jpg?v=1655245395",
         name: "Brake Pads",
@@ -200,16 +199,20 @@ arr3=[
     },
 ]
 
-let clutter3="";
-arr3.forEach((elem)=>{
-  clutter3+=` <div >
+let clutter3 = "";
+arr3.forEach((elem) => {
+    clutter3 += ` <div >
   <img src="${elem.img}" alt="">
   <h5>${elem.name}</h5>
   <h5>${elem.price}</h5>
 </div>`
 })
 
-productList3.innerHTML= clutter3;
+productList3.innerHTML = clutter3;
+
+
+
+
 
 
 
