@@ -838,10 +838,13 @@ footer div {
 
 .contactForm form>h5:nth-child(5) {
     margin-top: 2vmax;
+
 }
 
 .text-Area {
     margin-top: 1vmax;
+    border-radius: 2px;
+
 }
 
 .contactForm form {
@@ -876,4 +879,15 @@ footer div {
 }
 .emailAdd div>ul>li{
     margin-top: 0.25vmax;
+}
+
+.contactForm form>input:nth-child(2){
+    width: 32vmax;
+    height: 2vmax;
+    
+}
+.contactForm form>input:nth-child(4){
+    width: 32vmax;
+    height: 2vmax;
+
 }
