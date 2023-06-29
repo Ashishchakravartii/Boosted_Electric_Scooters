@@ -211,6 +211,29 @@ arr3.forEach((elem) => {
 productList3.innerHTML = clutter3;
 
 
+// ================================================================================
+
+let menu= document.querySelector(".menu");
+let menuI= document.querySelector(".menuI");
+let cross= document.querySelector(".cross");
+let menuOptions= document.querySelector(".menuOptions");
+
+menuI.addEventListener("click",()=>{
+    menuOptions.style.left="0";
+    menuI.style.display="none";
+    cross.style.display="block"
+})
+
+cross.addEventListener("click",()=>{
+    menuOptions.style.left="-100%";
+    menuI.style.display="block";
+    cross.style.display="none"
+    
+})
+
+
+
+
 
 
 

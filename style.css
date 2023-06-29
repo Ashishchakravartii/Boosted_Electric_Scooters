@@ -24,6 +24,20 @@ body {
 
 
 }
+.menuOptions{
+    background-color: #ffffff;
+   width: 100vw;
+   height: 100%;
+   position: absolute;
+   left: -100%;
+   z-index: 50000000000000;
+   top: 6%;
+   transition: all ease 0.5s;
+    
+}
+.cross{
+    display: none;
+}
 
 nav {
     width: 100%;
@@ -40,6 +54,20 @@ nav {
     box-shadow: 0 0.5px 9px rgb(135, 132, 132);
     font-family: "Roboto";
     letter-spacing: 0.8px;
+}
+.menuOptions{
+    padding-top: 3vmax;
+}
+.menuOptions a{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 3vmax;
+    margin-top: 2vmax;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .menu {
@@ -1326,6 +1354,136 @@ footer div {
     .whiteBar div:nth-child(2){
         padding:5vmax 2vmax;
     }
+
+
+/* ========================================menu options page================================  */
+
+
+
+
+
+
+
+
+
+
+    /* ============================================Shop page responsive====================== */
+
+    .products {
+        margin-top: 7vmax;
+    }
+    .productHead{
+        /* margin-left: 3vmax; */
+        padding-bottom: 2vmax;
+    }
+    .productBox div{
+      width: 49%;
+      height: 41%;
+
+    }
+    .productBox div>img {
+        /* width: 100%;
+        height: 100%;
+        object-fit: cover; */
+        object-fit: cover;
+        height: 38%;
+    }
+    .productBox {
+        width: 100vw;
+        margin-left: 0vmax;
+       
+    }
+    .productBox div>h4 {
+        font-weight: 500;
+        font-size: 1.5vmax;
+        padding-top: 2vmax;
+       
+    }
+    
+    .productBox div>p {
+        font-weight: 400;
+        font-size: 1.2vmax;
+        padding-top: 1.2vmax;
+
+    }
+
+
+    /* =================================Contact Page Responsive===========================  */
+
+    .contactForm {
+        width: 100vw;
+        height: 90%;
+        margin-top: 4.6vmax;
+        padding-top: 8vmax;
+        margin-left: 0vmax;
+
+    }
+    .contactForm p {
+        font-size: 1.8vmax;
+        margin-top: 1vmax;
+        padding: 0 2vmax;
+    }
+    .contactForm h1{
+        padding-left: 2vmax;
+    }
+    
+    .contactForm p:nth-child(2) {
+        margin-top: 2.5vmax;
+    }
+    .contactForm form>h5 {
+        font-size: 1.8vmax;
+        letter-spacing: 0.1vmin;
+    
+    }
+    .contactForm form{
+        padding: 0 2vmax;
+        padding-top: 5vmax;
+    }
+    .text-Area{
+        width: 90vw;
+    }
+    .contactForm form>input:nth-child(2) {
+        width: 32vmax;
+        height: 3vmax;
+        margin-top: 1vmax;
+    
+    }
+    
+    .contactForm form>input:nth-child(4) {
+        width: 32vmax;
+        height: 3.2vmax;
+        margin-top: 1vmax;
+
+    
+    }
+    .contactForm button {
+        padding: 2vmax 5vmax;
+        margin-top: 2vmax;
+        margin-left: 2.2vmax;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+        font-size: 1.5vmax;
+        letter-spacing: 0.3vmax;
+    }
+    .emailAdd{
+        height: 25vh;
+        padding-bottom: 5vmax;
+    }
+    .emailAdd div {
+        margin-left: 2vmax;
+    }
+    
+    .emailAdd div>ul {
+        list-style: none;
+        font-size: 2vmax;
+    
+    }
+    
+    .emailAdd div>ul>li {
+        margin-top: 1vmax;
+    }
+    
 
 
 
