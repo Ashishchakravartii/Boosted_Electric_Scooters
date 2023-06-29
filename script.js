@@ -216,6 +216,8 @@ productList3.innerHTML = clutter3;
 let menu= document.querySelector(".menu");
 let menuI= document.querySelector(".menuI");
 let cross= document.querySelector(".cross");
+let moreInfo= document.querySelector(".moreInfo");
+let moreInfo2= document.querySelector(".moreInfo2");
 let menuOptions= document.querySelector(".menuOptions");
 
 menuI.addEventListener("click",()=>{
@@ -229,6 +231,18 @@ cross.addEventListener("click",()=>{
     menuI.style.display="block";
     cross.style.display="none"
     
+})
+moreInfo.addEventListener("click",()=>{
+    menuOptions.style.left="-100%";
+    menuI.style.display="block";
+    cross.style.display="none"
+
+})
+moreInfo2.addEventListener("click",()=>{
+    menuOptions.style.left="-100%";
+    menuI.style.display="block";
+    cross.style.display="none"
+
 })
 
 
